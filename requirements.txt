@@ -1,0 +1,4 @@
+Django==1.9.1
+djangorestframework==3.5.2
+django-extensions==1.7.5
+django-jsonfield==1.0.1
