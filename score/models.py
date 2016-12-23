@@ -1,5 +1,6 @@
 from django.db import models
 from jsonfield import JSONField
+from score.constants import settings
 
 
 class Album(models.Model):
@@ -31,3 +32,9 @@ class Score(models.Model):
 
     def __unicode__(self):
         return self.title
+
+    def cover_url(self):
+        return settings.COVER_URL + self.cover
+
+    def cover_thumb_url(self):
+        return settings.COVER_URL + self.cover + "-t"
