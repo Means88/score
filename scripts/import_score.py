@@ -104,6 +104,8 @@ def run(*args):
     exist_count = 0
     not_valid_count = 0
     created_count = 0
+    created = []
+    not_valid = []
     for rootdir in args:
         print rootdir
         for parent, dirnames, filenames in os.walk(rootdir):
@@ -128,6 +130,7 @@ def run(*args):
                 if not score:
                     print '%s is not a valid score' % filename
                     not_valid_count += 1
+                    not_valid.append(filename)
                     continue
 
                 score = _save_score(score)
@@ -136,6 +139,7 @@ def run(*args):
                     continue
 
                 created_count += 1
+                created.append(filename)
                 tags = score.tags
                 for tag in path:
                     tags.append(tag)
@@ -144,3 +148,5 @@ def run(*args):
 
     print 'finished. %s existed, %s not valid, %s created. Total %s' \
           % (exist_count, not_valid_count, created_count, exist_count + not_valid_count + created_count)
+    print 'Created: %s' % created
+    print 'Not valid: %s' % not_valid
