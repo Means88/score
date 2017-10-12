@@ -219,6 +219,7 @@
 - ✅ 届かない星だとしても
 
 <h3 id="index_anime">Anime</h3>
+
 - ✅ 青空Jumping Heart
 - ✅ ハミングフレンド
 - ❌ 決めたよHand in Hand
@@ -231,24 +232,29 @@
 - ✅ MIRAI TICKET
 
 <h3 id="index_cyaron">CYaRon!</h3>
+
 - ❌ 元気全開DAY！DAY！DAY！
 - ✅ 夜空はなんでも知ってるの？
 
 <h3 id="index_azalea">AZALEA</h3>
+
 - ✅ トリコリコPLEASE!!
 - ✅ ときめき分類学
 
 
 <h3 id="index_guilty_kiss">Guilty Kiss!</h3>
+
 - ✅ Strawberry Trapper
 - ✅ Guilty Night, Guilty Kiss!
 
 <h3 id="index_special">Special</h3>
+
 - ❌ Pops heartで踊るんだもん!
 - ✅ 空も心も晴れるから
 - ❌ Waku-Waku-Week!
 - ❌ Daydream Warrior
 
 <h3 id="index_other">Other</h3>
+
 - ✅ ジングルベルがとまらない
 - ✅ 聖なる日の祈り
