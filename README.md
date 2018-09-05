@@ -1,6 +1,23 @@
 # Score
+LoveLive [JE Score](https://github.com/Justice-Eternal/je-transcore/blob/master/docs/introduction.md#what-is-the-je-score).
 
-##
+## Installation
+
+```bash
+pip install -r requirements.txt
+python manage.py createsuperuser
+python manage.py runserver 0:8000
+```
+
+Goto http://localhost:8000/  
+Login with super user account
+
+_or_  
+
+Open `db.sqlite3` with sqlite3 directly.
+
+
+## Index
 - [LoveLive!](#lovelive)
 - [LoveLive!Sunshine!!](#lovelive-sunshine)
 
@@ -258,3 +275,14 @@
 
 - ✅ ジングルベルがとまらない
 - ✅ 聖なる日の祈り
+
+
+[And more...](http://www.moeje.org/)
+
+
+## License
+MIT
+
+## About
+- [MoeJE](http://www.moeje.org/)
+- [Justice_Eternal](https://github.com/Justice-Eternal)

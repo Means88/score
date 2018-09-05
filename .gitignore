@@ -4,4 +4,4 @@ local_settings.py
 *.pyc
 *.log
 /backup
-
+venv
